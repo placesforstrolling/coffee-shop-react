@@ -4,9 +4,11 @@ import App from './components/app/App';
 
 import './index.scss';
 
+//for index.html
+
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+    <>
+  <App/>
+    </>,
   document.getElementById('root')
 );

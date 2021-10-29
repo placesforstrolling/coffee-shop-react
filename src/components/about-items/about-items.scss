@@ -1,0 +1,26 @@
+.item {
+    border-radius: 10px;
+    padding: 20px;
+    background: #fff;
+    height: 100%;
+    text-align: center;
+    margin-top: 60px;
+    img {
+        width: 50%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    h4 {
+        font-size: 14px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    p {
+        font-size: 14px;
+        font-weight: 700;
+        text-align: right;
+    }
+    .type {
+        text-align: right;
+    }
+}
