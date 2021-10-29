@@ -1,6 +1,6 @@
-// import bg from '/images/main-header-bg.png'
 import './main-header.scss'
 import Menu from '../menu/menu';
+import Beans from '../beans/beans';
 
 
 
@@ -15,6 +15,7 @@ const MainHeader = () => {
             <div className="col-lg-12">
                 <Menu/>
                 <h1>Everything You Love About Coffee</h1>
+                <Beans/>
                 <h2>We makes every day full of energy and taste</h2>
                 <h2>Want to try our beans?</h2>
             </div>

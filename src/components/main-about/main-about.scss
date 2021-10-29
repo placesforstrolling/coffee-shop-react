@@ -1,0 +1,19 @@
+.about {
+    text-align: center;
+    padding: 80px 0 110px 0;
+    h2 {
+        font-size: 24px;
+    }
+    span {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        p {
+            font-size: 14px;
+            width: 590px;
+            text-align: center;
+        }
+    }
+    
+}

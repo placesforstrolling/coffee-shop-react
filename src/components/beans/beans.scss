@@ -1,0 +1,40 @@
+$color: #fff;
+
+.beans {
+    position: relative;
+    .fa-solid {
+        font-size: 30px;
+        color: #fff;
+        margin-top: 20px;
+        margin-bottom: 35px;
+    }
+
+    &:before {
+        content: '';
+        display: block;
+        width: 60px;
+        height: 1px;
+        background: #fff;
+        transform: translate(-50%, 50%);
+        top: 50%;
+        left: calc(50% - 80px);
+        position: absolute;
+    }
+    &:after {
+        content: '';
+        display: block;
+        width: 60px;
+        height: 1px;
+        background: #fff;
+        transform: translate(-50%, 50%);
+        top: 50%;
+        left: calc(50% + 80px);
+        position: absolute;
+    }
+    &.black:after, &.black:before {
+        background: #000;
+    }
+    &.black .fa-solid {
+        color: #000;
+    }
+}
